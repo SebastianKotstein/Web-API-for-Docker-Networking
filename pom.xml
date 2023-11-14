@@ -51,7 +51,27 @@
 			<groupId>de.skotstein.lib.spring</groupId>
 			<artifactId>restfulspring</artifactId>
 			<version>0.0.1-SNAPSHOT</version>	
-		</dependency>		
+		</dependency>	
+		
+		<!-- FOR OPEN API DOCUMENTATION -->
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.5.13</version>
+			<!--Apache 2.0-->
+		</dependency>
+			<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-hateoas</artifactId>
+			<version>1.5.13</version>	
+			<!--Apache 2.0-->
+		</dependency>
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-security</artifactId>
+			<version>1.5.13</version>
+			<!--Apache 2.0-->
+		</dependency>	
 	</dependencies>
 
 	<build>
